@@ -1,6 +1,6 @@
 #!/bin/bash
 
 jupyter nbconvert --to html *.ipynb
-mv *.html pages/
-cd pages/
+mv *.html docs/
+cd docs/
 node index.js
